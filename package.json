@@ -1,9 +1,9 @@
 {
-  "name": "@Inf0rmatik3r/fetch-event-source",
+  "name": "@inf0rmatik3r/fetch-event-source",
   "version": "2.0.2",
   "description": "A better API for making Event Source requests, with all the features of fetch()",
   "homepage": "https://github.com/Inf0rmatik3r/fetch-event-source#readme",
-  "repository": "github:Azure/fetch-event-source",
+  "repository": "github:Inf0rmatik3r/fetch-event-source",
   "bugs": {
     "url": "https://github.com/Inf0rmatik3r/fetch-event-source/issues"
   },
@@ -17,7 +17,8 @@
     "clean": "rimraf ./lib ./coverage",
     "prebuild": "npm run clean",
     "build": "tsc && tsc -p tsconfig.esm.json",
-    "prepublishOnly": "npm run build && npm run test"
+    "prepublishOnly": "npm run build",
+    "rimraf": "./node_modules/rimraf/bin.js"
   },
   "devDependencies": {
     "@types/jasmine": "^4.3.1",
