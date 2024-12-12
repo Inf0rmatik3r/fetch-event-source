@@ -1,6 +1,6 @@
 {
   "name": "@inf0rmatik3r/fetch-event-source",
-  "version": "2.0.2",
+  "version": "2.0.5",
   "description": "A better API for making Event Source requests, with all the features of fetch()",
   "homepage": "https://github.com/Inf0rmatik3r/fetch-event-source#readme",
   "repository": "github:Inf0rmatik3r/fetch-event-source",
